@@ -1,0 +1,51 @@
+{
+  "indicators": [
+    {
+      "name": "macd_historgam",
+      "params": [
+        {
+          "current": 0,
+          "diff": 0,
+          "end": 200,
+          "name": "period_a",
+          "start": 0,
+          "step": 1,
+          "var": true
+        },
+        {
+          "current": 0,
+          "diff": 0,
+          "end": 20,
+          "name": "signal_period",
+          "start": 0,
+          "step": 1,
+          "var": true
+        },
+        {
+          "current": 0,
+          "diff": 1,
+          "end": 200,
+          "name": "period_b",
+          "start": 0,
+          "step": 1,
+          "var": true
+        }
+      ],
+      "type": "macd_cross_signal_line"
+    }
+  ],
+  "params": [
+    {
+      "current": 120,
+      "diff": 0,
+      "end": 86400,
+      "name": "step",
+      "start": 120,
+      "step": 120,
+      "var": true
+    }
+  ],
+  "solution": "{your_solution_name}",
+  "pair_name": "USDT_TSLA",
+  "thread_count": 4
+}
